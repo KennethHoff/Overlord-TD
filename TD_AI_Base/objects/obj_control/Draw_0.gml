@@ -1,6 +1,8 @@
-draw_set_alpha(0.1);
+		// Path Debugging
 
-mp_grid_draw(global.AI_grid);
+//draw_set_alpha(0.1);
+
+//mp_grid_draw(global.AI_grid);
 
 //for ( var i = 0; i > room_width; i += 32) {
 //	draw_line(i, 0, i, room_height);	
@@ -8,6 +10,6 @@ mp_grid_draw(global.AI_grid);
 //for ( i = 0; i < room_height; i += 32) {
 //	draw_line(0, i, room_width, i);
 //}
-draw_set_alpha(1);
+//draw_set_alpha(1);
 
-draw_path(global.path, x, y, true);
+//draw_path(global.path, x, y, true);
