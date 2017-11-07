@@ -1,29 +1,30 @@
-with (obj_Map) {
-	switch (image_index) {
-	case 0:
-		name = "Deadwind Pass";
-		break;
-	case 1:
-		name = "Searing Gorge";
-		break;
-	default:
-		name = "Lordaeron";
-		break;
+// Velger Map basert på hvilket bildet er valgt.
+if (map && !character) {
+	with (obj_Map) { 
+		switch (image_index) {
+		case 0:
+			name = "Deadwind Pass";
+			break;
+		case 1:
+			name = "Searing Gorge";
+			break;
+		default:
+			name = "Lordaeron";
+			break;
+		}
 	}
+	name = obj_Map.name;	
 }
 
-
-if ( (character == true && map == true) || (character == false && map == false) ) {
-	return;
-}
-if (character) {
-	with (obj_Character) {
+// Velger Character basert på hvilket bildet er valgt.
+if (character && !map) {
+	with (obj_Character) { 
 		switch (image_index) {
 			case 0:
 				name = "Charlie";
 				break;
 			case 1:
-				name = "Kurt";
+				name = "supercalifragilisticexpialidocious";
 				break;
 			default:
 				name = "Bob";
@@ -31,7 +32,4 @@ if (character) {
 		}
 	}
 	name = obj_Character.name;
-}
-if (map) {
-	name = obj_Map.name;	
 }

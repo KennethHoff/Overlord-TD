@@ -50,7 +50,7 @@
             "Key": "07405304-5e34-4880-96aa-c9f07d1220e2",
             "Value": {
                 "id": "b566cbaa-1726-4ba3-abab-f532ad8fe20d",
-                "resourcePath": "objects\\obj_CharacterArrowBack\\obj_CharacterArrowBack.yy",
+                "resourcePath": "objects\\obj_ArrowBack\\obj_ArrowBack.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "79c617fc-7db5-4d9b-84f9-4cf156c7e21f",
             "Value": {
                 "id": "76daeac4-a75e-4aeb-beb5-348f6b6f804a",
-                "resourcePath": "objects\\obj_CharacterArrowForward\\obj_CharacterArrowForward.yy",
+                "resourcePath": "objects\\obj_ArrowForward\\obj_ArrowForward.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -258,7 +258,7 @@
             "Key": "d4b7af61-5e50-46b9-9ff1-efa617766e91",
             "Value": {
                 "id": "96f05d5e-d6fa-4127-b627-cd2b0eb30237",
-                "resourcePath": "rooms\\rm_1\\rm_1.yy",
+                "resourcePath": "rooms\\rm_GameCreation\\rm_GameCreation.yy",
                 "resourceType": "GMRoom"
             }
         },
