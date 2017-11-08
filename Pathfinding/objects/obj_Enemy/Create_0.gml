@@ -9,8 +9,4 @@ pos = 1;
 xx = path_get_point_x(path_ind, pos);
 yy = path_get_point_y(path_ind, pos);
 
-//with instance_find(obj_RoadBlock, 0) {
-//	instance_destroy();
-//}
-
 alarm[0] = room_speed * 2;

@@ -1,14 +1,9 @@
 if ( point_distance(x, y, xx, yy ) < 6 ) { // Når du nærmer deg neste path rute.
 	pos++;
-					//show_debug_message("Pos increased.");		
 	if ( pos = path_get_number(path_ind) ) {
+				show_debug_message("End of path.");
+
 		
-		if (!initialPath) {
-			instance_destroy();
-			scr_SpawnEnemy();
-						show_debug_message("destroyed instance.");
-			return;
-		}
 		if global.openPathsListSize > 0 {
 			rand = irandom_range(0,global.openPathsListSize-1);
 			
@@ -28,6 +23,10 @@ if ( point_distance(x, y, xx, yy ) < 6 ) { // Når du nærmer deg neste path rut
 			initialPath = false;
 			path_start(path_ind, movespd, path_action_stop, true);
 							show_debug_message("Initial Path finished. New started " + string(path_ind));
+			return;
+		}
+		else {
+			instance_destroy();
 		}
 	}
 	else {
@@ -35,5 +34,10 @@ if ( point_distance(x, y, xx, yy ) < 6 ) { // Når du nærmer deg neste path rut
 		yy = path_get_point_y(path_ind, pos);
 	}
 }
-
 image_angle = direction;
+if !initialPath {
+	instance_destroy();
+	scr_SpawnEnemy();
+				show_debug_message("destroyed instance.");
+	return;
+}

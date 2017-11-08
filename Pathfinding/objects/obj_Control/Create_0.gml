@@ -1,4 +1,4 @@
-global.useablePaths = 3 - instance_number(obj_RoadBlock);
+global.enemyCap = 500;
 
 global.spawnX = 480;
 global.spawnY = 64;
