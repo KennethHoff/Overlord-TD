@@ -1,6 +1,6 @@
 if(col == global.placeableCol){
-	var snap_x = (mouse_x div 32) * 32;
-	var snap_y = (mouse_y div 32) * 32;
+	var snap_x = (mouse_x div 32) * 32+32;
+	var snap_y = (mouse_y div 32) * 32+32;
 	
 	scr_findTowerInd(towerInd);
 	

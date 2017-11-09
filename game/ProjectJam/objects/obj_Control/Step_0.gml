@@ -3,6 +3,7 @@ key_space = keyboard_check_pressed(vk_space);
 key_1 = keyboard_check_pressed(ord("1"));
 key_2 = keyboard_check_pressed(ord("2"));
 key_3 = keyboard_check_pressed(ord("3"));
+global.key_delete = keyboard_check_pressed(vk_delete);
 
 global.lmb_click = mouse_check_button_pressed(mb_left);
 lmb_released = mouse_check_button_released(mb_left);
@@ -40,6 +41,7 @@ else {
 textString = enemyString + " on screen.";
 enemyAmountString = string(global.enemyAmount) + string(" ") + string(textString);
 
-if instance_number(obj_Enemy) == 0 && roundStarting == false {
-	alarm[2] = 1;
+if ( ( (global.spawn_count == global.spawn_amount) && global.enemyAmount = 0) && !roundStarting) {
+	roundStarting = true;
+	alarm[1] = room_speed * 2;
 }

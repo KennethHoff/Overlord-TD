@@ -1,1 +1,1 @@
-scr_createTower();
+scr_createTowerSnap();
