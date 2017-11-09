@@ -1,0 +1,2 @@
+character = false;
+map = false;
