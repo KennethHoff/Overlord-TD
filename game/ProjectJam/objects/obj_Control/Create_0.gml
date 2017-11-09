@@ -1,4 +1,4 @@
-global.spawn_amount = 2;
+global.spawn_amount = 5;
 global.spawn_count = 0;
 global.spawn_rate = 1 * room_speed;
 roundStarting = false;
