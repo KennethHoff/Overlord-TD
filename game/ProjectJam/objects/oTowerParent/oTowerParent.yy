@@ -1,8 +1,8 @@
 {
-    "id": "17e7a55c-f583-40d6-a533-c0b9f97ae3be",
+    "id": "af207e11-0f3e-41c2-aed8-0b57799f542d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_testwall",
+    "name": "oTowerParent",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "dd8b86be-ee90-4e7c-bc01-dcc7f19258cc",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
