@@ -1,3 +1,4 @@
+if (global.openPathsListSize = 0) return;
 nearestEnemy = instance_nearest(x,y,obj_Enemy);
 
 if (nearestEnemy == noone) return;

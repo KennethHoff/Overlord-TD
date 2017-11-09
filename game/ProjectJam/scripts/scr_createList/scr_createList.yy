@@ -1,8 +1,8 @@
 {
-    "id": "c433fee0-e352-497e-82cf-3b42d4c5b96d",
+    "id": "e223bd48-2960-454e-9522-84fc660646b6",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Pathfinding2",
+    "name": "scr_createList",
     "IsCompatibility": false,
     "IsDnD": false
 }

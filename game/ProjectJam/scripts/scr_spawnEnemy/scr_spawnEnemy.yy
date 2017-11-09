@@ -1,8 +1,8 @@
 {
-    "id": "1d68674f-4544-4d11-8611-0ad0f815af4b",
+    "id": "2042c062-ae81-4da9-b521-e3c9160deb85",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Pathfinding21",
+    "name": "scr_spawnEnemy",
     "IsCompatibility": false,
     "IsDnD": false
 }

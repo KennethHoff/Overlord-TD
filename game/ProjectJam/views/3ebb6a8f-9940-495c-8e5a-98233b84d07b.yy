@@ -7,7 +7,10 @@
         "a3dc9c8a-eb9a-4e97-ac8c-f2e3c7dcdb28",
         "b7345259-5d6f-4e41-a2cd-ed20ed9978ce",
         "796bf57b-6395-4e25-9162-e12e75c5027c",
-        "a45623e5-554f-4235-b407-483284159fda"
+        "a45623e5-554f-4235-b407-483284159fda",
+        "33f892c6-2acb-4b7b-9170-e2bd54820559",
+        "8666dca5-f8ff-42e8-9d54-79b29ddc5db2",
+        "476ba792-322c-480f-ba63-e0c62776fd5d"
     ],
     "filterType": "GMObject",
     "folderName": "Test",
