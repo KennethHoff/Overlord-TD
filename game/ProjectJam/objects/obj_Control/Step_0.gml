@@ -22,7 +22,7 @@ if rmb_click instance_destroy(global.holdingTower);
 
 if global.lifeAmount <= 0 {
 	show_message("Game over.");
-	game_end();
+	game_restart();
 	global.gameOver = true;
 }
 

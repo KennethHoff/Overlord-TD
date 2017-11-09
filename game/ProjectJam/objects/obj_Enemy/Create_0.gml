@@ -13,3 +13,6 @@ pos = 1;
 
 xx = path_get_point_x(path_ind, pos);
 yy = path_get_point_y(path_ind, pos);
+
+//image_xscale = 0.15;
+//image_yscale = 0.15;

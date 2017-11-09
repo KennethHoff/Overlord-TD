@@ -15,7 +15,7 @@ if ( point_distance(x, y, xx, yy ) < 6 ) { // Når du nærmer deg neste path rut
 			path_ind = asset_get_index(path)
 			pos = 1;
 			initialPath = false;
-			path_start(path_ind, 1 * global.spdMultiplier, path_action_stop, true);
+			path_start(path_ind, moveSpd, path_action_stop, true);
 			return "initial";
 		}
 		else { // Hvis det ikke er noen åpne paths.
