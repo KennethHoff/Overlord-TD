@@ -1,6 +1,6 @@
-spawn_amount = 5;
-spawn_count = 0;
-spawn_rate = 1 * room_speed;
+global.spawn_amount = 5;
+global.spawn_count = 0;
+global.spawn_rate = 1 * room_speed;
 roundStarting = false;
 
 alarm[0] = 1;
@@ -11,7 +11,7 @@ global.level = 1;
 
 global.hpMultiplier = 1;
 global.spdMultiplier = 1;
-
+global.spawnAmountMultiplier = 1.5;
 
 global.coins = 100;
 global.lifeAmount = 20;

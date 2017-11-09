@@ -4,3 +4,6 @@ shooting = false;
 towerInd = 1;
 bulletDmg = 20;
 objectToShoot = noone;
+mouseOver = false;
+hovering = false;
+clickedOnce = false;
