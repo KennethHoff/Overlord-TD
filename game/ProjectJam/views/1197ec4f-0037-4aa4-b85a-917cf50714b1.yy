@@ -9,7 +9,7 @@
         "a5a20f1a-cb5f-4f1b-a647-0153034ab74c"
     ],
     "filterType": "GMObject",
-    "folderName": "Towerclickables",
+    "folderName": "Tower Clickables",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
