@@ -11,7 +11,7 @@ rmb_click = mouse_check_button_pressed(mb_right);
 rmb_released = mouse_check_button_released(mb_right);
 
 if key_r game_restart();	
-if key_space global.coins += 100;
+//if key_space global.coins += 100;
 
 if key_1 scr_dragTower(1);
 if key_2 scr_dragTower(2);
@@ -39,3 +39,7 @@ else {
 }
 textString = enemyString + " on screen.";
 enemyAmountString = string(global.enemyAmount) + string(" ") + string(textString);
+
+if instance_number(obj_Enemy) == 0 && roundStarting == false {
+	alarm[2] = 1;
+}
