@@ -1,4 +1,4 @@
-global.spawn_amount = 5;
+global.spawn_amount = 2;
 global.spawn_count = 0;
 global.spawn_rate = 1 * room_speed;
 roundStarting = false;
@@ -40,9 +40,9 @@ with (obj_RoadBlock) {
 
 global.openPaths = ds_list_create();
 
-show_debug_overlay(true);
+//show_debug_overlay(true);
 
 
-show_debug_message("Finished Create on Control Object.");
+//show_debug_message("Finished Create on Control Object.");
 
 alarm[11] = 1; // Very much a band-aid fix.

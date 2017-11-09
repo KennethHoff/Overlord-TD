@@ -41,6 +41,7 @@ else {
 textString = enemyString + " on screen.";
 enemyAmountString = string(global.enemyAmount) + string(" ") + string(textString);
 
-if instance_number(obj_Enemy) == 0 && roundStarting == false {
-	alarm[2] = 1;
+if ( ( (global.spawn_count == global.spawn_amount) && global.enemyAmount = 0) && !roundStarting) {
+	roundStarting = true;
+	alarm[1] = room_speed * 2;
 }

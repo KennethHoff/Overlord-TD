@@ -3,6 +3,7 @@ fire_rate = room_speed / 1;
 shooting = false;
 towerInd = 1;
 bulletDmg = 50;
+bulletSpd = 30;
 objectToShoot = noone;
 mouseOver = false;
 hovering = false;
