@@ -1,10 +1,8 @@
+event_inherited(); // Tar all informasjonen fra parent "Create" (toggle variabler)
+
+towerInd = 1;
+
 range = 150;
 fire_rate = room_speed / 3;
-shooting = false;
-towerInd = 1;
 bulletDmg = 20;
 bulletSpd = 15;
-objectToShoot = noone;
-mouseOver = false;
-hovering = false;
-clickedOnce = false;

@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "239b0e08-a20f-47e4-b252-42bd81c1b4e0",
-            "Value": {
-                "id": "07c157d8-77bd-419d-a2b4-bf65ee7a32a8",
-                "resourcePath": "views\\239b0e08-a20f-47e4-b252-42bd81c1b4e0.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "25d489b6-b841-4cc4-b7ba-a8bd5fc9424f",
             "Value": {
                 "id": "5c5132c7-dd66-432f-aa84-88b2cb186470",
@@ -255,6 +247,14 @@
             }
         },
         {
+            "Key": "4c356569-1ddd-40ce-aac7-3567b80ef1fe",
+            "Value": {
+                "id": "8d3525d4-c986-4f50-80ef-19a8be2de8bb",
+                "resourcePath": "objects\\obj_TowerDrag_Parent\\obj_TowerDrag_Parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4daf33df-1dfe-41c0-8fa9-47faeeeee49a",
             "Value": {
                 "id": "10225df3-de03-4357-a5ac-8e944b79b191",
@@ -399,14 +399,6 @@
             }
         },
         {
-            "Key": "7c6faf0f-e65e-4503-82ee-96ead380e3c9",
-            "Value": {
-                "id": "53c3f050-7c00-4bbd-bf73-ad1076f74452",
-                "resourcePath": "sprites\\spr_Castle\\spr_Castle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7db1039f-a285-4656-899d-9946967d8800",
             "Value": {
                 "id": "5f732075-8ea3-4c24-adca-6d4ec5823f39",
@@ -423,18 +415,18 @@
             }
         },
         {
-            "Key": "801ef25b-fc0d-44cb-9c09-747510672769",
-            "Value": {
-                "id": "3be73aac-4348-4fe7-bbbf-ea0358cdd5ac",
-                "resourcePath": "sprites\\spr_CannonTower\\spr_CannonTower.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8666dca5-f8ff-42e8-9d54-79b29ddc5db2",
             "Value": {
                 "id": "29e2c6a4-c878-4e2a-bcf1-4637000d8274",
                 "resourcePath": "objects\\obj_Base\\obj_Base.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a8dc920-6272-49dc-92ac-cac92401e932",
+            "Value": {
+                "id": "aadcf43e-5a5f-4bc3-bedd-148c657c4255",
+                "resourcePath": "objects\\obj_TowerClickable_Parent\\obj_TowerClickable_Parent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -586,7 +578,7 @@
             "Key": "af207e11-0f3e-41c2-aed8-0b57799f542d",
             "Value": {
                 "id": "02a86ff0-e5cd-4750-84f1-f103b89d65db",
-                "resourcePath": "objects\\obj_TowerParent\\obj_TowerParent.yy",
+                "resourcePath": "objects\\obj_TowerPlaced_Parent\\obj_TowerPlaced_Parent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -684,14 +676,6 @@
                 "id": "19853e50-10e4-41f4-9d49-2ffc4129c560",
                 "resourcePath": "objects\\obj_Tower1C\\obj_Tower1C.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d055794b-2d71-4845-a1d5-4f34232591b2",
-            "Value": {
-                "id": "111556bb-8156-4f80-94e6-0f766d4eecf9",
-                "resourcePath": "sprites\\spr_Demon\\spr_Demon.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
