@@ -1,2 +1,0 @@
-/// @description Open up path.
-
