@@ -1,0 +1,1 @@
+global.enemiesRemaining = global.spawn_amount - global.roundEnemiesDead;

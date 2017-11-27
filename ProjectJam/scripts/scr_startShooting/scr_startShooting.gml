@@ -1,6 +1,7 @@
 if scr_hover() {
 	draw_circle(x ,y, range, true);
 }
+
 if (global.openPathsListSize = 0) return;
 nearestEnemy = instance_nearest(x,y,obj_Enemy);
 

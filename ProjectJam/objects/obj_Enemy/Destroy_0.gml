@@ -1,0 +1,2 @@
+global.enemiesDead++;
+global.roundEnemiesDead++;
