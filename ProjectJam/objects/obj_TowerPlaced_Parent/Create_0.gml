@@ -1,6 +1,7 @@
-shooting = false;
-objectToShoot = noone;
-mouseOver = false;
+towerCost = ds_map_find_value(global.towers, towerInd);
+
+counter = 0;
 hovering = false;
 
-scr_findTowerInd(towerInd);
+enemyInRange = false;
+enemyToShoot = noone;

@@ -1,1 +1,1 @@
-scr_dragTower(towerInd);
+scr_dragTowerSnap(towerInd);

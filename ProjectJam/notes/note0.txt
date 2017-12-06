@@ -1,0 +1,3 @@
+Bullet hitbox går wacky på høy gamespeed (x/y verdien går forbi enemy).
+	> Må gjøre det sånn at når bullet er innenfor "speed" gjør en while loop som sjekker om den kommer til å kollidere. (Problematisk med vinkler (cos, sin etc..)
+	

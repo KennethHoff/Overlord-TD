@@ -1,5 +1,3 @@
-// Gjør om til State machine!
-
 draw_self();
 
-scr_drawCost();
+scr_drawCost(towerInd);

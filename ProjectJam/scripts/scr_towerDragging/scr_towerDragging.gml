@@ -1,4 +1,3 @@
-
 snap_x = (mouse_x div 32) * 32+32;
 snap_y = (mouse_y div 32) * 32+32;
 
@@ -6,7 +5,7 @@ for (var i = 0; i < array_length_1d(global.numberKeys); ++i)
 {
 	if (global.numberKeys[i]) 
 	{
-		scr_dragTower(i);	
+		scr_dragTowerSnap(i);	
 	}
 }
 

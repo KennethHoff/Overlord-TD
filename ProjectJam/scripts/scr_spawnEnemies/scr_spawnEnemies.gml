@@ -1,4 +1,4 @@
-counter++;
+counter += 1 * global.gamespeed;
 if ( counter < global.spawn_rate)
 {
 	return false;

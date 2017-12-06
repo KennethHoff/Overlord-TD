@@ -5,7 +5,7 @@
     "name": "obj_TowerPlaced_2",
     "eventList": [
         {
-            "id": "7ef632d3-c57f-4372-be20-a1673c50041e",
+            "id": "d657d2f5-694c-48c7-a4ac-2a972f259f34",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

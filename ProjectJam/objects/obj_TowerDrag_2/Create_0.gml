@@ -1,2 +1,3 @@
+towerInd = Towers.tower_2;
+
 event_inherited();
-towerInd = 2;

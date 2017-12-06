@@ -1,7 +1,7 @@
 switch (currentPlaceableState) {
 	case dragTowerStates.placeable:
 		if global.lmb_pressed {
-			scr_createTowerSnap(); 
+			scr_createTowerSnap(towerInd); 
 			show_debug_message("Placed tower.");
 		}
 		col = global.placeableCol

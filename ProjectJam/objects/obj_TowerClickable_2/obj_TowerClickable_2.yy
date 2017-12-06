@@ -5,7 +5,7 @@
     "name": "obj_TowerClickable_2",
     "eventList": [
         {
-            "id": "e1ed4915-b71e-4d2f-aaa8-1a019376f5dd",
+            "id": "bf2a4cf3-7faa-4a37-bc89-b899ea5247df",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

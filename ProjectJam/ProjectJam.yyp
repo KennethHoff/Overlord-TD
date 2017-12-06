@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0173dbec-3a69-45bf-8827-a627e8c9748a",
-            "Value": {
-                "id": "d605a360-5727-43cc-8b09-134ae6b4ef5b",
-                "resourcePath": "scripts\\scr_createTower\\scr_createTower.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "061dcb34-cb4c-4f04-9d61-ae6dec7941c2",
             "Value": {
                 "id": "796728a5-0ef9-4c89-9c33-f5974885681b",
@@ -60,6 +52,14 @@
                 "id": "a78c7573-fe53-4e2c-8d31-ee57c4372b4a",
                 "resourcePath": "views\\0a4ef975-e4a9-4efb-a5a0-49aaf115382a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0d4ca7d6-541b-4b05-a53c-d689eb7a9f9d",
+            "Value": {
+                "id": "04013862-6397-474a-91b5-5f83b9c6842d",
+                "resourcePath": "objects\\obj_TowerPlaced_Aimed\\obj_TowerPlaced_Aimed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -107,14 +107,6 @@
             "Value": {
                 "id": "4ad70e6d-b129-4243-a347-dbc26519e2e2",
                 "resourcePath": "scripts\\scr_pathfinding\\scr_pathfinding.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2e28dd6e-a558-48ec-a74b-26a23bd1d949",
-            "Value": {
-                "id": "a6f0eb3b-a90b-4cd5-9f0e-7463508a7578",
-                "resourcePath": "scripts\\scr_dragTower\\scr_dragTower.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -186,7 +178,7 @@
             "Key": "3a2825b3-0bb3-4662-a1df-f44367dd97c3",
             "Value": {
                 "id": "d3d085cd-f3be-462f-8e79-3a279704747f",
-                "resourcePath": "scripts\\scr_startShooting\\scr_startShooting.yy",
+                "resourcePath": "scripts\\scr_showTargettingCircle\\scr_showTargettingCircle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -204,6 +196,14 @@
                 "id": "ac74a5da-0662-4e9a-b231-3602a159115c",
                 "resourcePath": "objects\\obj_Name\\obj_Name.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3cd31901-61bb-4b91-9bad-01bdcc0c686f",
+            "Value": {
+                "id": "305f6f07-60dc-41b9-9517-164ed10257aa",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -228,6 +228,14 @@
                 "id": "60da3293-1791-40aa-9015-1e6f21c4897c",
                 "resourcePath": "rooms\\rm_GameCreation\\rm_GameCreation.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "45e69917-3b28-4fbd-a127-4b70b87afa34",
+            "Value": {
+                "id": "0bf41c6b-494e-4dde-a5b3-0753f2cdfd0c",
+                "resourcePath": "objects\\obj_Enemy_Parent\\obj_Enemy_Parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "68688bd7-40b5-4cc2-b55f-96ca39a7a5e0",
+            "Value": {
+                "id": "6bba7a83-e881-41f7-87b5-7e4bc927231e",
+                "resourcePath": "scripts\\scr_checkEnemyInRange\\scr_checkEnemyInRange.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6dfaebe6-e712-4ddc-ae44-d8367f516d88",
             "Value": {
                 "id": "b9098af9-9de3-49f8-a5b1-015ea60ba82d",
@@ -516,6 +532,14 @@
                 "id": "91ce98fc-5bfe-40f1-b404-6a8114cf50b7",
                 "resourcePath": "tilesets\\tTile\\tTile.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "96e58fcd-cc41-4c0b-8196-0c78354670bd",
+            "Value": {
+                "id": "893b1bc2-b31e-4e38-8b92-989acf8a81cf",
+                "resourcePath": "scripts\\scr_addNewTower\\scr_addNewTower.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -901,25 +925,16 @@
                 "resourcePath": "paths\\path_initial\\path_initial.yy",
                 "resourceType": "GMPath"
             }
-        },
-        {
-            "Key": "fb9cf361-3929-4872-beee-c0489159dfc8",
-            "Value": {
-                "id": "ba058401-ed12-4129-93fc-8cd7e8e06543",
-                "resourcePath": "scripts\\scr_createBullet\\scr_createBullet.yy",
-                "resourceType": "GMScript"
-            }
         }
     ],
     "script_order": [
-        "fb9cf361-3929-4872-beee-c0489159dfc8",
         "b9c63407-3d51-49b2-aaea-0fcabb3b95ad",
         "9b3b9d58-2476-4013-b78a-4274ce9044da",
         "2e9470b8-9599-4376-b75e-4718cbf8774b",
         "3a507b5a-25ad-408e-9011-f8ec2a688d8a",
         "3a2825b3-0bb3-4662-a1df-f44367dd97c3",
-        "0173dbec-3a69-45bf-8827-a627e8c9748a",
-        "2e28dd6e-a558-48ec-a74b-26a23bd1d949",
+        "96e58fcd-cc41-4c0b-8196-0c78354670bd",
+        "68688bd7-40b5-4cc2-b55f-96ca39a7a5e0",
         "730f9412-e256-48a8-8fe5-fe2d09f9a9de",
         "2042c062-ae81-4da9-b521-e3c9160deb85",
         "e223bd48-2960-454e-9522-84fc660646b6",

@@ -1,3 +1,5 @@
+counter = 0;
+global.gamespeed = 1;
 #region Spawn & Enemy Variables
 global.level = 0;
 
@@ -15,7 +17,6 @@ global.hpMultiplier = 1;
 global.spdMultiplier = 1;
 
 #endregion
-counter = 0;
 
 #region Inventory
 global.coins = 100;
@@ -24,6 +25,34 @@ global.enemiesRemaining = 0;
 global.holdingTower = noone;
 #endregion
 
+#region Tower variables
+
+enum towerStates { // Currently not in use
+	idle,
+	enemyInSight
+}
+
+
+enum Towers {
+	tower_1 = 1,
+	tower_2 = 2,
+	tower_3 = 3
+}
+
+
+global.towers = ds_map_create();
+
+scr_addNewTower(Towers.tower_1, 50);
+scr_addNewTower(Towers.tower_2, 100);
+scr_addNewTower(Towers.tower_3, 200);
+
+ini_open("Save.ini");
+var t_string = ds_map_write(global.towers);
+ini_write_string("Debug", "Towers Map", t_string);
+ini_close();
+
+
+#endregion
 global.gameOver = false;
 
 global.errorCol = c_red;
