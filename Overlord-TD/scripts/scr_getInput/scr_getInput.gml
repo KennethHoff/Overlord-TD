@@ -1,6 +1,11 @@
 global.key_r_pressed = keyboard_check_pressed(ord("R"));
 global.key_q_pressed = keyboard_check_pressed(ord("Q"));
 global.key_u_pressed = keyboard_check_pressed(ord("U"));
+global.key_n_pressed = keyboard_check_pressed(ord("N"));
+global.key_c_pressed = keyboard_check_pressed(ord("C"));
+global.key_f_pressed = keyboard_check_pressed(ord("F"));
+global.key_s_pressed = keyboard_check_pressed(ord("S"));
+global.key_w_pressed = keyboard_check_pressed(ord("W"));
 
 global.key_space = keyboard_check(vk_space);
 	global.key_space_pressed = keyboard_check_pressed(vk_space);
@@ -62,3 +67,5 @@ if currentGameState == gameState.waiting {
 		currentGameState = gameState.newRound;
 	}
 }
+
+if global.key_space_pressed global.coins += 20;

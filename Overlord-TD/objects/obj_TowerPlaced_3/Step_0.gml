@@ -1,6 +1,7 @@
 switch towerLevel {
 	case 1:
-		range = -1;
+		minRange = 100;
+		maxRange = -1;
 		fire_rate = room_speed / 1;
 		bulletDmg = 100;
 		bulletSpd = 15;
@@ -10,7 +11,8 @@ switch towerLevel {
 		sprite_index = spr_Tower3_1;
 		break;
 	case 2:
-		range = -1;
+		minRange = 100;
+		maxRange = -1;
 		fire_rate = room_speed / 1.5;
 		bulletDmg = 200;
 		bulletSpd = 15;
@@ -20,7 +22,8 @@ switch towerLevel {
 		sprite_index = spr_Tower3_2;
 		break;
 	case 3:
-		range = -1;
+		minRange = 100;
+		maxRange = -1;
 		fire_rate = room_speed / 2;
 		bulletDmg = 400;
 		bulletSpd = 15;

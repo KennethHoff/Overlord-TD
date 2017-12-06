@@ -1,6 +1,7 @@
 switch towerLevel {
 	case 1:
-		range = 150;
+		minRange = -1;
+		maxRange = 150;
 		fire_rate = room_speed / 3;
 		bulletDmg = 25;
 		bulletSpd = 2;
@@ -9,8 +10,10 @@ switch towerLevel {
 		upgradeCost = 100;
 		sprite_index = spr_Tower1_1;
 		break;
+		
 	case 2:
-		range = 200;
+		minRange = -1;
+		maxRange = 200;
 		fire_rate = room_speed / 6;
 		bulletDmg = 37.5;
 		bulletSpd = 3;
@@ -19,8 +22,10 @@ switch towerLevel {
 		upgradeCost = 200;
 		sprite_index = spr_Tower1_2;
 		break;
+		
 	case 3:
-		range = 250;
+		minRange = -1;
+		maxRange = 250;
 		fire_rate = room_speed / 9;
 		bulletDmg = 50;
 		bulletSpd = 4;

@@ -5,18 +5,10 @@ counter += 1 * global.gamespeed;
 if (counter >= fire_rate) counter = fire_rate;
 
 if scr_hover() {
-	if global.key_delete_pressed {
-		instance_destroy();
-		global.coins += refundValue;
-	}
-	if global.key_u_pressed {
-		if global.coins >= upgradeCost && upgradeCost != -1 {
-			global.coins -= upgradeCost;
-			refundValue += upgradeCost/2
-			towerLevel++;
-		}
-	}
+	image_index = 1;
 }
+else image_index = 0;
+
 
 switch currentTargettingState {
 	case towerTargettingStates.nearestEnemy:

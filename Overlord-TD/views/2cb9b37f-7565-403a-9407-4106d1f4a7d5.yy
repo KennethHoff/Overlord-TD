@@ -8,7 +8,8 @@
         "a300cdc8-6da3-44de-8046-fcb9028043a9",
         "68688bd7-40b5-4cc2-b55f-96ca39a7a5e0",
         "819667b3-2c3e-46cc-bb40-852701d5ed86",
-        "ac85b8d7-8e90-4bc7-be6c-092bd1f86499"
+        "ac85b8d7-8e90-4bc7-be6c-092bd1f86499",
+        "55a73fe8-356c-46ba-8e50-ad9432d98c02"
     ],
     "filterType": "GMScript",
     "folderName": "Targetting",

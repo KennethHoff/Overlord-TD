@@ -28,7 +28,7 @@
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 752,
-            "y": 528,
+            "y": 464,
             "speed": 100
         },
         {
@@ -36,7 +36,7 @@
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 496,
-            "y": 528,
+            "y": 464,
             "speed": 100
         }
     ],

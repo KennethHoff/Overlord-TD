@@ -1,6 +1,7 @@
 newRoundCounter = 0;
 newRoundTimer = 5 * room_speed;
 counter = 0;
+mouseHitBox = 32; // Hvor mange pikseler musen må være unna "instance_nearest" for å ta den. (maks pikseler)
 
 global.gamespeed = 1;
 global.gamespeedMax = 20;
@@ -108,9 +109,9 @@ enum dragTowerStates { // Brukt av obj_TowerDrag
 }
 
 enum towerTargettingStates { // Brukt av obj_TowerPlaced
-	nearestEnemy,
-	closestToBase,
-	furthestFromBase,
+	nearestEnemy, // Nearest to the Tower
+	closestToBase, // Closest to base
+	furthestFromBase, // Furthest from base
 	strongest, // Most health
 	weakest // Lowest health
 }

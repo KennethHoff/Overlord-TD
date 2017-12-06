@@ -3,6 +3,8 @@ switch (currentGameState) {
 		scr_getInput();
 		scr_towerDragging();
 		scr_countEnemies();
+		scr_clickTower();
+		scr_towerClickedHotkeys();
 		
 		if (global.openPathsListSize > 0) currentGameState = gameState.newRound;
 		break;
@@ -16,6 +18,8 @@ switch (currentGameState) {
 		scr_getInput();
 		scr_towerDragging();
 		scr_countEnemies();
+		scr_clickTower();
+		scr_towerClickedHotkeys();
 		
 		scr_checkGameOver();
 		
@@ -31,6 +35,8 @@ switch (currentGameState) {
 		scr_getInput();
 		scr_towerDragging();
 		scr_countEnemies();
+		scr_clickTower();
+		scr_towerClickedHotkeys();
 		
 		scr_checkGameOver();
 		

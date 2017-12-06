@@ -1,8 +1,8 @@
 {
-    "id": "872604ef-bb94-4b92-9c87-2e7e9740abe2",
+    "id": "002c5f66-89c4-4693-a75b-457f5c7a79e5",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_text",
+    "name": "scr_clickTower",
     "IsCompatibility": false,
     "IsDnD": false
 }

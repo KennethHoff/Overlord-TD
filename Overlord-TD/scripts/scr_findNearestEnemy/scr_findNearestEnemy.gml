@@ -1,13 +1,14 @@
-var enemy = instance_nearest(x, y, obj_Enemy);
+var enemy = noone;
+var count = -1; // Highest pos so far
 
-if (enemy == noone) return noone; // Hvis ingen enemy. Returner "false"
-
-if range != -1 {
-	if (point_distance(x, y, enemy.x, enemy.y) <= range) {
-		return enemy; // Hvis det er en enemy _innen range_. Returner "true".
+with (obj_Enemy_Parent) {
+	var distance = point_distance(other.x, other.y, x, y);
+	if ( distance <= other.maxRange ) || other.maxRange == -1 {
+		if (distance >= other.minRange) || other.minRange == -1 {
+			enemy = instance_nearest(x, y, obj_Enemy_Parent);
+		}
 	}
 }
-else {
-	return enemy;
-}
-return noone; // Hvis ingen enemy _innen range_. Returner noone.
+
+if enemy != noone return enemy;
+else return noone;

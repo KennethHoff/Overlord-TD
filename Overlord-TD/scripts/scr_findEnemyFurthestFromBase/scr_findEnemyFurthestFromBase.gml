@@ -2,10 +2,13 @@ var enemy = noone;
 var count = -1; // Lowest pos so far
 
 with (obj_Enemy_Parent) {
-	if (point_distance(other.x, other.y, x, y) <= other.range) || other.range == -1 {
-		if (pos < count || count = -1) {
-			count = pos;
-			enemy = id;
+	var distance = point_distance(other.x, other.y, x, y);
+	if ( distance <= other.maxRange ) || other.maxRange == -1 {
+		if (distance >= other.minRange) || other.minRange == -1 {
+			if (pos < count || count = -1) {
+				count = pos;
+				enemy = id;
+			}
 		}
 	}
 }

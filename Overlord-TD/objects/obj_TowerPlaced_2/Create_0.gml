@@ -1,6 +1,7 @@
 towerInd = Towers.tower_2;
 
-range = 100;
+minRange = -1;
+maxRange = 100;
 fire_rate = room_speed / 10;
 bulletDmg = 20;
 bulletSpd = 3;
