@@ -3,11 +3,10 @@ hp = maxHP;
 percentHP = hp / maxHP * 100;
 coinGain = 5 * global.coinGainMultipler;
 coinLoss = 5 * global.coinLossMultipler;
-moveSpd = 1 * global.spdMultiplier;
+moveSpd = 120 / room_speed * global.enemySpdMultiplier;
 
 passedGate = 0;
 pos = 0;
-show_debug_message("Enemies passed Gate: " + string(global.enemiesPassedGate));
 #region Paths
 
 path_start(path_initial, moveSpd, path_action_stop, true);

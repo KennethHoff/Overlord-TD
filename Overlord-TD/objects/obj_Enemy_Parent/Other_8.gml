@@ -2,7 +2,7 @@
 
 switch currentPathState {
 	case enemyPathStates.initial:
-		show_debug_message("Initial path reached.");
+		//show_debug_message("Initial path reached.");
 			#region selecting a main path
 
 			if global.openPathsListSize > 0 { // Hvis det er noen åpne paths.
@@ -19,7 +19,7 @@ switch currentPathState {
 			
 		break;
 	case enemyPathStates.main:
-		show_debug_message("Main path reached.");
+		//show_debug_message("Main path reached.");
 			#region Enering final path
 			
 			path_start(path_final, moveSpd, path_action_stop, true);
@@ -29,7 +29,7 @@ switch currentPathState {
 			
 		break;
 	case enemyPathStates.final:
-		show_debug_message("Final path reached.");
+		//show_debug_message("Final path reached.");
 		#region Final path ended
 		
 		global.coins -= coinLoss;
@@ -50,7 +50,7 @@ switch currentPathState {
 		currentPathState = enemyPathStates.initial;
 		path_start(path_initial, moveSpd, path_action_stop, true);
 		
-		show_debug_message("Instance respawned. ");
+		//show_debug_message("Instance respawned. ");
 		
 		#endregion
 		

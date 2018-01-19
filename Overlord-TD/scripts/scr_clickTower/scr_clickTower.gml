@@ -1,5 +1,5 @@
 if global.lmb_pressed {
-	
+	if mouse_y >= 640 return;
 	if !instance_exists(obj_TowerPlaced_Parent) return; // Hvis ingen Towers finnes, gå ut av scriptet.
 		
 	var inst = instance_nearest(mouse_x, mouse_y, obj_TowerPlaced_Parent); // Velg Tower som er nærmest Mouse

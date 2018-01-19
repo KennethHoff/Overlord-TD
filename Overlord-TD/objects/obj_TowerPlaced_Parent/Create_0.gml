@@ -7,6 +7,7 @@ damageDone = 0;
 towerLevel = 1;
 upgradeCost = towerCost * 2;
 refundValue = towerCost / 2;
+bulletDropOffDistance = maxRange;
 
 enemyInRange = false;
 

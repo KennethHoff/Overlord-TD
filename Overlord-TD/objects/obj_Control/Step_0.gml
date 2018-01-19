@@ -1,12 +1,18 @@
 switch (currentGameState) {
 	case gameState.newGame:
+		if !audio_is_playing(snd_Hellmarch) {
+			audio_play_sound(snd_Hellmarch, 100, true);
+		}
 		scr_getInput();
 		scr_towerDragging();
 		scr_countEnemies();
 		scr_clickTower();
 		scr_towerClickedHotkeys();
 		
-		if (global.openPathsListSize > 0) currentGameState = gameState.newRound;
+		if (global.openPathsListSize > 0) {
+			//global.music = true;
+			currentGameState = gameState.spawning;
+		}
 		break;
 		
 	case gameState.newRound: // Burde gå rett fra "new round" -> "spawning", så trenger ikke input etc..
@@ -42,17 +48,7 @@ switch (currentGameState) {
 		
 		counter = 0;
 		newRoundCounter += global.gamespeed;
-		
-		#region waiting for all enemies to be dead. // Ny runde på en annen måte
-		
-		//if (global.enemiesRemaining <= 0) {
-		//	currentGameState = gameState.newRound;
-		//	show_debug_message("New round.");
-		//	return true;
-		//}
-		
-		#endregion
-		
+
 		#region countdown timer
 		
 		if newRoundCounter >= newRoundTimer {
@@ -63,6 +59,16 @@ switch (currentGameState) {
 		
 		break;
 	case gameState.gameOver:
-		if keyboard_check(ord("R")) room_restart();
+		if keyboard_check(vk_shift) {
+			if keyboard_check_pressed(ord("R")) {
+				room_restart();
+			}
+		}
+		restartTimer--;
+		audio_stop_all();
+		if restartTimer <= 0 game_restart();
 		break;
 }
+
+if (global.music) audio_resume_sound(snd_Hellmarch);
+else if (!global.music) audio_pause_sound(snd_Hellmarch);

@@ -12,7 +12,8 @@
         "96e58fcd-cc41-4c0b-8196-0c78354670bd",
         "a4c0ded6-f700-4bf8-b075-c1bc42b581e7",
         "ec58df62-cd33-4a2d-b6c8-da115e8bce66",
-        "2cb9b37f-7565-403a-9407-4106d1f4a7d5"
+        "2cb9b37f-7565-403a-9407-4106d1f4a7d5",
+        "f3290e59-d6ff-4d56-a5f5-745a6852f93b"
     ],
     "filterType": "GMScript",
     "folderName": "Towers",

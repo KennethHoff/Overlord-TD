@@ -3,9 +3,10 @@ switch towerLevel {
 		minRange = 100;
 		maxRange = -1;
 		fire_rate = room_speed / 1;
-		bulletDmg = 100;
+		bulletDmg = 150;
 		bulletSpd = 15;
 		bulletCurve = 5;
+		homing = true;
 		
 		upgradeCost = 500;
 		sprite_index = spr_Tower3_1;
@@ -14,9 +15,10 @@ switch towerLevel {
 		minRange = 100;
 		maxRange = -1;
 		fire_rate = room_speed / 1.5;
-		bulletDmg = 200;
+		bulletDmg = 300;
 		bulletSpd = 15;
 		bulletCurve = 5;
+		homing = true;
 		
 		upgradeCost = 1000;
 		sprite_index = spr_Tower3_2;
@@ -25,9 +27,10 @@ switch towerLevel {
 		minRange = 100;
 		maxRange = -1;
 		fire_rate = room_speed / 2;
-		bulletDmg = 400;
+		bulletDmg = 600;
 		bulletSpd = 15;
 		bulletCurve = 5;
+		homing = true;
 		
 		upgradeCost = -1;
 		sprite_index = spr_Tower3_3;

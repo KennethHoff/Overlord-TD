@@ -1,8 +1,6 @@
-// Gjør om til State Machine!
-
 if (obj_Control.currentGameState == gameState.gameOver) return; // Gjør ikke koden under, dersom "Game Over" er sant.
 counter += 1 * global.gamespeed;
-if (counter >= fire_rate) counter = fire_rate;
+if (counter >= fire_rate && counter == -1) counter = fire_rate;
 
 if scr_hover() {
 	image_index = 1;
@@ -42,16 +40,18 @@ switch currentTargettingState {
 		break;
 }
 
-if enemyToShoot != noone {
-	enemyInRange = true;
-	if ( counter >= fire_rate ) {
-		var overflow = fire_rate - counter;
-		if (overflow >= 0) counter = overflow;
-		else counter = 0;
-		scr_createBullet(enemyToShoot);
-	}
-}
-else {
+if enemyToShoot == noone {
 	enemyInRange = false;
 	enemyToShoot = noone;
+	return;
+}
+
+enemyInRange = true;
+if ( counter >= fire_rate ) {
+	var overflow = fire_rate - counter;
+	
+	if (overflow >= 0) counter = overflow;
+	else counter = 0;
+	
+	scr_createBullet(enemyToShoot, bulletType, bulletAmount);
 }

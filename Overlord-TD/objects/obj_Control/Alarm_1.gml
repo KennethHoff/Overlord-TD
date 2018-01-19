@@ -1,1 +1,0 @@
-show_debug_message("enemy max HP: " + string(obj_Enemy.maxHP));

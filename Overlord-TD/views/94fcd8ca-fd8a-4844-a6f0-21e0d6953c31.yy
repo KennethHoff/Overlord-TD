@@ -9,7 +9,7 @@
         "785d8cb3-5a68-48de-9dc5-0ca82c3e6392",
         "17b28875-e0c8-477d-b3ee-6f4124ef420d",
         "441d7723-9deb-48f7-8575-2cbec794d31c",
-        "382db32c-7fa4-4dc4-b071-9d95aa262abc"
+        "82706754-2740-46d3-b36f-ea7bb097e74f"
     ],
     "filterType": "GMObject",
     "folderName": "Targetting modes",

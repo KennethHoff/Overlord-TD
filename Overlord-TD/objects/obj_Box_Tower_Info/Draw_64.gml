@@ -1,8 +1,9 @@
 if towerID == noone return;
 
+draw_set_halign(fa_center);
 textToDrawLeft = "Level:" + string(towerID.towerLevel);
 textToDrawMiddle = "Kills: " + string(towerID.enemiesKilled);
-textToDrawRight =  "Damage Done: " + string(towerID.damageDone);
+textToDrawRight =  "Damage Done: " + string(round(towerID.damageDone));
 
 draw_text(x, y, textToDrawLeft + " | " + textToDrawMiddle + " | " + textToDrawRight);
 

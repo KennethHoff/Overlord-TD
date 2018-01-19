@@ -15,7 +15,13 @@
         "dbb2c379-392e-411f-88ee-5510a44a3999",
         "002c5f66-89c4-4693-a75b-457f5c7a79e5",
         "c1b754c2-f15c-4442-a31a-440b485f250b",
-        "fb1f6ac6-b66b-473b-b793-e8d6a88c4f7d"
+        "fb1f6ac6-b66b-473b-b793-e8d6a88c4f7d",
+        "a462ff20-381a-4ada-a417-3da051054623",
+        "8b6715ad-f124-4893-95ff-4c2bd50c2b29",
+        "7a180922-dd4d-4e51-8484-f4683302f58b",
+        "84fedf11-b149-4090-ad1d-597aceddb895",
+        "ee43dfdd-3f05-41a4-8363-76ac89882b88",
+        "6bd4aa70-018d-4bc5-a329-49c9f6a33491"
     ],
     "filterType": "GMScript",
     "folderName": "Control",
